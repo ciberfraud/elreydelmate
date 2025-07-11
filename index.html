@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mates Artesanales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fef9f4;
+      color: #333;
+    }
+    header {
+      background: #5e3c2c;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #a9746e, #debaa0);
+      color: white;
+    }
+    .productos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 2rem;
+      gap: 2rem;
+    }
+    .producto {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 1rem;
+      width: 220px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 4px;
+    }
+    .producto h3 {
+      margin-top: 0.5rem;
+    }
+    footer {
+      background: #5e3c2c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mates Artesanales</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Tradición y sabor en cada mate</h2>
+    <p>Conectate con nuestras raíces con los mejores mates artesanales</p>
+  </div>
+
+  <section class="productos" id="productos">
+    <div class="producto">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Mate_imperial.jpg" alt="Mate Imperial">
+      <h3>Mate Imperial</h3>
+      <p>$9.500</p>
+    </div>
+    <div class="producto">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Mate_calabaza.jpg" alt="Mate Calabaza">
+      <h3>Mate Camionero</h3>
+      <p>$7.200</p>
+    </div>
+    <div class="producto">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Mate_y_bombilla.jpg" alt="Mate con bombilla">
+      <h3>Combo Mate + Bombilla</h3>
+      <p>$11.000</p>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <p>Contacto: ventas@matesartesanales.com | WhatsApp: +54 9 11 1234-5678</p>
+    <p>&copy; 2025 Mates Artesanales</p>
+  </footer>
+</body>
+</html>
