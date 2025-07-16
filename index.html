@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
- <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo del Banco - Simulación</title>
+    <title>Demo del Banco ICBC - Simulación</title>
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -81,37 +82,42 @@
             margin-top: 2rem;
         }
     </style>
-  
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17336721888"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17336721888');
-  </script>
 
-  <!-- Event snippet for Vista de una página (USD) -->
-  <script>
-    gtag('event', 'conversion', {
-        'send_to': 'AW-17336721888/Nj-hCMjhiO4aEODD5cpA',
-        'value': 1.0,
-        'currency': 'USD'
-    });
-  </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17336721888"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-17336721888');
+    </script>
 
-  <!-- Event snippet for Vista de una página (ARS) -->
-  <script>
-    gtag('event', 'conversion', {
-        'send_to': 'AW-17336721888/45cBCLj_1-4aEODD5cpA',
-        'value': 1.0,
-        'currency': 'ARS'
-    });
-  </script>
+    <!-- Event snippet for Vista de una página (USD) -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17336721888/Nj-hCMjhiO4aEODD5cpA',
+            'value': 1.0,
+            'currency': 'USD'
+        });
+    </script>
+
+    <!-- Event snippet for Vista de una página (ARS) -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17336721888/45cBCLj_1-4aEODD5cpA',
+            'value': 1.0,
+            'currency': 'ARS'
+        });
+    </script>
+</head>
+
 <body>
 
 <header>
-    <h1>Demo del Banco ICBC</h1>
+    <div style="display: flex; align-items: center;">
+        <img src="logo1.jpg" alt="Logo del banco" style="height: 50px; margin-right: 1rem;">
+        <h1>Demo del Banco ICBC</h1>
+    </div>
     <nav>
         <a href="#">Inicio</a>
         <a href="#">Productos</a>
@@ -130,6 +136,10 @@
 
         <button type="submit">Ingresar</button>
     </form>
+
+    <div style="text-align: center; margin-top: 2rem;">
+        <img src="logo2.jpg" alt="Imagen adicional" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </div>
 </div>
 
 <div class="news">
@@ -139,7 +149,7 @@
 </div>
 
 <div class="disclaimer">
-    <strong>⚠️ Aviso:</strong> Este sitio web es una simulación de prueba con fines demotrativos. No representa a ninguna entidad financiera real ni recopila datos reales. Su propósito es únicamente ilustrativo.
+    <strong>⚠️ Aviso:</strong> Este sitio web es una simulación de prueba con fines demostrativos. No representa a ninguna entidad financiera real ni recopila datos reales. Su propósito es únicamente ilustrativo.
 </div>
 
 <footer>
